@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Operacional | Luciano Locações</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between font-sans antialiased">
+
+  <!-- CABEÇALHO -->
+  <header class="border-b border-slate-800/80 bg-slate-900/60 backdrop-blur sticky top-0 z-50 w-full">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-lg">
+          <i class="fa-solid fa-toolbox"></i>
+        </div>
+        <div>
+          <div class="text-sm font-bold tracking-wide text-white">Luciano Locações</div>
+          <div class="text-[10px] sm:text-xs font-semibold text-amber-400 tracking-wider uppercase">Painel de Ferramentas & Gestão</div>
+        </div>
+      </div>
+      <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Sistema Ativo
+      </span>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="flex-grow max-w-5xl mx-auto px-4 py-8 sm:py-12 w-full space-y-8">
+
+    <div class="text-center max-w-2xl mx-auto">
+      <h1 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">
+        Central de Operações & Atendimento
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+        Acesse os utilitários de orçamento de balcão, controle de estoque e os manuais técnicos de segurança para envio rápido aos clientes.
+      </p>
+    </div>
+
+    <!-- GRADE DE APLICATIVOS DISPONÍVEIS (2x2 SIMÉTRICO) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- CARD 1: SIMULADOR DE LOCAÇÃO -->
+      <a href="https://locacao-luciano.legiaotecnica.com.br/"
+         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-calculator"></i>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">
+              Comercial
+            </span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
+            Simulador de Locação
+          </h2>
+          <p class="text-xs text-slate-400 leading-relaxed mb-6">
+            Calcule orçamentos com diárias, descontos e frete. Gera a proposta formatada pronta para o WhatsApp.
+          </p>
+        </div>
+        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
+          <span>Abrir Simulador</span>
+          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+        </div>
+      </a>
+
+      <!-- CARD 2: CONTROLE DE ESTOQUE & PÁTIO -->
+      <a href="https://estoque-luciano.legiaotecnica.com.br/"
+         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-boxes-stacked"></i>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 px-2.5 py-1 rounded-full border border-emerald-500/20">
+              Tempo Real
+            </span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
+            Controle de Estoque & Pátio
+          </h2>
+          <p class="text-xs text-slate-400 leading-relaxed mb-6">
+            Veja quantas máquinas estão livres ou alugadas agora. Dê baixa de saída e devolução sincronizada no celular.
+          </p>
+        </div>
+        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
+          <span>Abrir Estoque</span>
+          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+        </div>
+      </a>
+
+      <!-- CARD 3: GUIA ROÇADEIRA 2T -->
+      <a href="https://guia-luciano.legiaotecnica.com.br/"
+         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">
+              Operacional
+            </span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
+            Guia Operacional 2T
+          </h2>
+          <p class="text-xs text-slate-400 leading-relaxed mb-6">
+            Dosador anti-fundição de óleo 2T, procedimento de partida a frio e regras de campo para o cliente.
+          </p>
+        </div>
+        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
+          <span>Abrir Guia 2T</span>
+          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+        </div>
+      </a>
+
+      <!-- CARD 4: CHECKLIST DE MANUTENÇÃO -->
+      <a href="https://checklist-luciano.legiaotecnica.com.br/"
+         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-clipboard-check"></i>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">
+              Pátio & Gestão
+            </span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
+            Checklist de Inspeção
+          </h2>
+          <p class="text-xs text-slate-400 leading-relaxed mb-6">
+            Registo de saída e devolução da máquina. Validação de ponteira, filtro, motor e EPIs via WhatsApp.
+          </p>
+        </div>
+        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
+          <span>Abrir Checklist</span>
+          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- SEÇÃO: NOVOS MÓDULOS FUTUROS (PREVISÃO) -->
+    <div class="bg-slate-900/40 border border-dashed border-slate-800 rounded-2xl p-6 text-center">
+      <div class="w-10 h-10 rounded-full bg-slate-800/80 flex items-center justify-center text-slate-500 mx-auto mb-3 text-sm">
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <h3 class="text-sm font-bold text-slate-300">Expansão de Frota</h3>
+      <p class="text-xs text-slate-500 max-w-md mx-auto mt-1">
+        Novos guias operacionais (Marteletes, Betoneiras, Andaimes) serão adicionados automaticamente a este painel conforme demanda.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- RODAPÉ COM ASSINATURA TÉCNICA -->
+  <footer class="border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-500 w-full">
+    <p>Luciano Locações • Painel de Controle Integrado</p>
+    <p class="text-[11px] text-slate-600 mt-1">Todos os direitos reservados • Atendimento via WhatsApp</p>
+    
+    <!-- ASSINATURA TÉCNICA LEGIÃO TÉCNICA -->
+    <div class="mt-4 pt-3 border-t border-slate-900">
+      <a href="https://www.legiaotecnica.com.br" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-1.5 text-[11px] text-slate-500 hover:text-amber-400 transition-colors group">
+        <i class="fa-solid fa-gear text-[10px] text-slate-600 group-hover:text-amber-400"></i>
+        <span>Desenvolvido por <strong class="font-semibold text-slate-400 group-hover:text-white">Legião Técnica</strong> • Soluções Web Sob Demanda</span>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
