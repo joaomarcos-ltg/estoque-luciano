@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal Operacional | Luciano Locações</title>
+  <title>Controle de Estoque & Pátio | Luciano Locações</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -14,153 +14,67 @@
     <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-lg">
-          <i class="fa-solid fa-toolbox"></i>
+          <i class="fa-solid fa-boxes-stacked"></i>
         </div>
         <div>
           <div class="text-sm font-bold tracking-wide text-white">Luciano Locações</div>
-          <div class="text-[10px] sm:text-xs font-semibold text-amber-400 tracking-wider uppercase">Painel de Ferramentas & Gestão</div>
+          <div class="text-[10px] sm:text-xs font-semibold text-amber-400 tracking-wider uppercase">Controle de Estoque & Pátio</div>
         </div>
       </div>
-      <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        Sistema Ativo
-      </span>
+      <a href="https://luciano.legiaotecnica.com.br" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800/90 hover:bg-slate-700 text-xs font-medium text-slate-200 hover:text-white border border-slate-700/80 transition-all">
+        <i class="fa-solid fa-house text-[11px]"></i>
+        <span>Painel</span>
+      </a>
     </div>
   </header>
 
   <!-- CONTEÚDO PRINCIPAL -->
-  <main class="flex-grow max-w-5xl mx-auto px-4 py-8 sm:py-12 w-full space-y-8">
+  <main class="flex-grow max-w-4xl mx-auto px-4 py-8 sm:py-12 w-full space-y-8">
 
     <div class="text-center max-w-2xl mx-auto">
+      <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20 mb-3">
+        <i class="fa-solid fa-rotate"></i>
+        Sincronizado em Tempo Real na Nuvem
+      </span>
       <h1 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">
-        Central de Operações & Atendimento
+        Controle de Estoque & Pátio
       </h1>
       <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
-        Acesse os utilitários de orçamento de balcão, controle de estoque e os manuais técnicos de segurança para envio rápido aos clientes.
+        Acompanhe em tempo real quantas máquinas estão no pátio ou alugadas. Registre saídas e devoluções com um toque.
       </p>
     </div>
 
-    <!-- GRADE DE APLICATIVOS DISPONÍVEIS (2x2 SIMÉTRICO) -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-      <!-- CARD 1: SIMULADOR DE LOCAÇÃO -->
-      <a href="https://locacao-luciano.legiaotecnica.com.br/"
-         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
-              <i class="fa-solid fa-calculator"></i>
-            </div>
-            <span class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">
-              Comercial
-            </span>
-          </div>
-          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
-            Simulador de Locação
-          </h2>
-          <p class="text-xs text-slate-400 leading-relaxed mb-6">
-            Calcule orçamentos com diárias, descontos e frete. Gera a proposta formatada pronta para o WhatsApp.
-          </p>
-        </div>
-        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
-          <span>Abrir Simulador</span>
-          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
-        </div>
-      </a>
-
-      <!-- CARD 2: CONTROLE DE ESTOQUE & PÁTIO -->
-      <a href="https://estoque-luciano.legiaotecnica.com.br/"
-         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
-              <i class="fa-solid fa-boxes-stacked"></i>
-            </div>
-            <span class="text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 px-2.5 py-1 rounded-full border border-emerald-500/20">
-              Tempo Real
-            </span>
-          </div>
-          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
-            Controle de Estoque & Pátio
-          </h2>
-          <p class="text-xs text-slate-400 leading-relaxed mb-6">
-            Veja quantas máquinas estão livres ou alugadas agora. Dê baixa de saída e devolução sincronizada no celular.
-          </p>
-        </div>
-        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
-          <span>Abrir Estoque</span>
-          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
-        </div>
-      </a>
-
-      <!-- CARD 3: GUIA ROÇADEIRA 2T -->
-      <a href="https://guia-luciano.legiaotecnica.com.br/"
-         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
-              <i class="fa-solid fa-seedling"></i>
-            </div>
-            <span class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">
-              Operacional
-            </span>
-          </div>
-          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
-            Guia Operacional 2T
-          </h2>
-          <p class="text-xs text-slate-400 leading-relaxed mb-6">
-            Dosador anti-fundição de óleo 2T, procedimento de partida a frio e regras de campo para o cliente.
-          </p>
-        </div>
-        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
-          <span>Abrir Guia 2T</span>
-          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
-        </div>
-      </a>
-
-      <!-- CARD 4: CHECKLIST DE MANUTENÇÃO -->
-      <a href="https://checklist-luciano.legiaotecnica.com.br/"
-         class="group bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 shadow-xl flex flex-col justify-between hover:-translate-y-1">
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
-              <i class="fa-solid fa-clipboard-check"></i>
-            </div>
-            <span class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">
-              Pátio & Gestão
-            </span>
-          </div>
-          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition-colors mb-2">
-            Checklist de Inspeção
-          </h2>
-          <p class="text-xs text-slate-400 leading-relaxed mb-6">
-            Registo de saída e devolução da máquina. Validação de ponteira, filtro, motor e EPIs via WhatsApp.
-          </p>
-        </div>
-        <div class="flex items-center text-xs font-bold text-amber-400 gap-2 pt-4 border-t border-slate-800/80">
-          <span>Abrir Checklist</span>
-          <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
-        </div>
-      </a>
-
-    </div>
-
-    <!-- SEÇÃO: NOVOS MÓDULOS FUTUROS (PREVISÃO) -->
-    <div class="bg-slate-900/40 border border-dashed border-slate-800 rounded-2xl p-6 text-center">
-      <div class="w-10 h-10 rounded-full bg-slate-800/80 flex items-center justify-center text-slate-500 mx-auto mb-3 text-sm">
-        <i class="fa-solid fa-plus"></i>
+    <!-- BARRA DE STATUS E AÇÕES -->
+    <div class="flex flex-wrap items-center justify-between gap-3 bg-slate-900/80 border border-slate-800 rounded-2xl p-4 shadow-xl">
+      <div class="flex items-center gap-2 text-xs text-slate-300">
+        <span id="statusDot" class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span id="statusText">Conectado à frota</span>
       </div>
-      <h3 class="text-sm font-bold text-slate-300">Expansão de Frota</h3>
-      <p class="text-xs text-slate-500 max-w-md mx-auto mt-1">
-        Novos guias operacionais (Marteletes, Betoneiras, Andaimes) serão adicionados automaticamente a este painel conforme demanda.
-      </p>
+      <div class="flex items-center gap-2">
+        <button onclick="carregarEstoque()" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700/80 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-arrows-rotate text-amber-400"></i>
+          <span>Atualizar</span>
+        </button>
+        <button onclick="enviarResumoWhatsApp()" class="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center gap-1.5 shadow-lg shadow-emerald-950/40">
+          <i class="fa-brands fa-whatsapp text-sm"></i>
+          <span>Enviar Posição</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- LISTA DE EQUIPAMENTOS -->
+    <div id="listaEstoque" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="col-span-full text-center py-12 text-slate-400 text-sm">
+        <i class="fa-solid fa-circle-notch fa-spin text-amber-400 text-xl mb-2 block"></i>
+        Carregando posição do pátio...
+      </div>
     </div>
 
   </main>
 
-  <!-- RODAPÉ COM ASSINATURA TÉCNICA -->
+  <!-- RODAPÉ -->
   <footer class="border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-500 w-full">
-    <p>Luciano Locações • Painel de Controle Integrado</p>
+    <p>Luciano Locações • Sistema de Gestão e Controle de Frota</p>
     <p class="text-[11px] text-slate-600 mt-1">Todos os direitos reservados • Atendimento via WhatsApp</p>
     
     <!-- ASSINATURA TÉCNICA LEGIÃO TÉCNICA -->
@@ -173,5 +87,113 @@
     </div>
   </footer>
 
+  <script>
+    const API_URL = "https://script.google.com/macros/s/AKfycbyVFszE3Kz9_dVi8PXsoM3obIL2EmtA26AAtlNTJZvbgGgDkhvi-d_0M3emK8gIPSRy/exec";
+
+    let dadosAtuais = [];
+
+    function setStatus(texto, carregando = false) {
+      document.getElementById("statusText").innerText = texto;
+      const dot = document.getElementById("statusDot");
+      dot.className = carregando
+        ? "w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping"
+        : "w-2.5 h-2.5 rounded-full bg-emerald-400";
+    }
+
+    async function carregarEstoque() {
+      setStatus("Sincronizando frota...", true);
+      try {
+        const res = await fetch(API_URL);
+        const json = await res.json();
+        dadosAtuais = json.itens || [];
+        renderizarCards();
+        const hora = new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+        setStatus(`Atualizado às ${hora}`);
+      } catch (err) {
+        setStatus("Erro de conexão com a planilha");
+      }
+    }
+
+    async function alterarEstoque(row, delta) {
+      setStatus("Salvando movimentação...", true);
+      try {
+        const url = `${API_URL}?action=update&row=${row}&delta=${delta}`;
+        const res = await fetch(url);
+        const json = await res.json();
+        dadosAtuais = json.itens || [];
+        renderizarCards();
+        const hora = new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+        setStatus(`Salvo às ${hora}`);
+      } catch (err) {
+        setStatus("Falha ao atualizar");
+      }
+    }
+
+    function renderizarCards() {
+      const container = document.getElementById("listaEstoque");
+      container.innerHTML = "";
+
+      dadosAtuais.forEach(item => {
+        let badgeCor = "bg-emerald-500/10 text-emerald-400 border-emerald-500/30";
+        let badgeTexto = `🟢 ${item.disponiveis} Disponível(is)`;
+
+        if (item.disponiveis === 0) {
+          badgeCor = "bg-rose-500/10 text-rose-400 border-rose-500/30";
+          badgeTexto = "🔴 Tudo Alugado";
+        } else if (item.disponiveis === 1) {
+          badgeCor = "bg-amber-500/10 text-amber-400 border-amber-500/30";
+          badgeTexto = "🟡 Última Unidade!";
+        }
+
+        const btnAlugarDisabled = item.disponiveis <= 0 ? "opacity-40 pointer-events-none" : "";
+        const btnDevolverDisabled = item.alugados <= 0 ? "opacity-40 pointer-events-none" : "";
+
+        container.innerHTML += `
+          <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between gap-4 shadow-xl">
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <h2 class="text-base font-bold text-white">${item.nome}</h2>
+                <p class="text-xs text-slate-400 mt-1">
+                  Frota Total: <strong class="text-slate-200">${item.total}</strong> • Na Rua: <strong class="text-slate-200">${item.alugados}</strong>
+                </p>
+              </div>
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-bold border whitespace-nowrap ${badgeCor}">
+                ${badgeTexto}
+              </span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2.5 pt-3 border-t border-slate-800/80">
+              <button onclick="alterarEstoque(${item.row}, 1)"
+                class="${btnAlugarDisabled} py-2.5 px-3 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/30 text-amber-300 font-bold text-xs flex items-center justify-center gap-1.5 transition">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                <span>Alugou (-1)</span>
+              </button>
+
+              <button onclick="alterarEstoque(${item.row}, -1)"
+                class="${btnDevolverDisabled} py-2.5 px-3 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 border border-emerald-500/30 text-emerald-300 font-bold text-xs flex items-center justify-center gap-1.5 transition">
+                <i class="fa-solid fa-arrow-down-to-bracket"></i>
+                <span>Devolveu (+1)</span>
+              </button>
+            </div>
+          </div>
+        `;
+      });
+    }
+
+    function enviarResumoWhatsApp() {
+      if (!dadosAtuais.length) return;
+      const dataHora = new Date().toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+      let texto = `📦 *POSIÇÃO DE ESTOQUE & PÁTIO*\n*Luciano Locações & Ferramentas*\n_Atualizado em ${dataHora}_\n\n`;
+
+      dadosAtuais.forEach(item => {
+        const icon = item.disponiveis === 0 ? "🔴" : item.disponiveis === 1 ? "🟡" : "🟢";
+        texto += `${icon} *${item.nome}:* ${item.disponiveis} disp. (${item.alugados}/${item.total} alugados)\n`;
+      });
+
+      window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(texto)}`, "_blank");
+    }
+
+    window.addEventListener("DOMContentLoaded", carregarEstoque);
+  </script>
 </body>
 </html>
